@@ -6,6 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Header from './components/Header';
 import Wrapper from './components/Wrapper';
 import NowWhat from './components/NowWhat';
+import Metrics from './components/Metrics';
 
 const theme = createTheme({
   palette: {
@@ -27,6 +28,7 @@ const App = () => (
     <Wrapper>
       <Header />
       <NowWhat />
+      <Metrics />
       <ToastContainer />
     </Wrapper>
   </MuiThemeProvider>
